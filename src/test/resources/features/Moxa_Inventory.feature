@@ -95,14 +95,14 @@ Feature: Inventory Management
     Then   he should be able to varify the Order Detail page
     And     admin should logout
 
-#  @09
-#  Scenario: // UNABLE TO EXECUTE BECAUSE OF HAVING ACTUAL BUG
-#
-#    Given  User has already logged into CSB menu
-#    When   he navigates it to " Inventory Management" option
-#    And    choose on to Upload Stock button
-#    Then   he should see a page Upload Stock page successfully
-#    And     admin should logout
+  @09
+  Scenario: // UNABLE TO EXECUTE BECAUSE OF HAVING ACTUAL BUG
+
+    Given  User has already logged into CSB menu
+    When   he navigates it to " Inventory Management" option
+    And    choose on to Upload Stock button
+    Then   he should see a page Upload Stock page successfully
+    And     admin should logout
 
 #  @10
 ##    Scenario:Varifying the Save Functionality for Upload Stock Page // UNABLE TO EXCUTE BECAUSE OF HAVING ACTUAL BUG
