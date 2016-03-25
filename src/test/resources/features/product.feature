@@ -8,11 +8,11 @@ Feature: Product Management
   And he should see atleast 1 product from the list
 
 
-#  Scenario: Admin should be able to navigate to Add Product Page
-#    Given user is logged into CSB
-#    When he navigates to "Product Management- Product List"
-#    When he want to Add New Product
-#    Then he should see the title as "Add Product"
+  Scenario: Admin should be able to navigate to Add Product Page
+    Given user is logged into CSB
+    When he navigates to "Product Management- Product List"
+    When he want to Add New Product
+    Then he should see the title as "Add Product"
 
 #
 #  Scenario Outline: Admin Should be able to Add New Product With all Valid Data
