@@ -31,16 +31,16 @@ Feature: Inventory Management
       |SO248	|05-01-2013 |  DCL777	    |Karnataka      |Pending   |
       |SO237	|03-01-2013 |	 DCL007	    |Andhra Pradesh |Pending   |
 
-#  @03
-#  Scenario:  Admin should see stock quantity with invalid  Details
-#
-#    Given     User has already logged into CSB menu
-#    When     he navigates it to "Inventory Management " option
-#    And      press on to " Stock Quantity " button
-#    And      enter the Mandatory Field as Andra Pradesh  // TEST IS FAILING HERE BECAUSE OF NOT COMPILER IS NOT GOING FURTHER FROM HERE
-#    And      Press on to " Go " buttons   // COMPLIER IS NOT TAKING THIS STEP
-#    Then     Admin should see error messege: "Please enter Mandatory Fields "
-##    And      admin should logout
+  @03
+ Scenario:  Admin should see stock quantity with invalid  Details
+
+    Given     User has already logged into CSB menu
+    When     he navigates it to "Inventory Management " option
+    And      press on to " Stock Quantity " button
+    And      enter the Mandatory Field as Andra Pradesh
+    And      Press on to " Go " buttons
+    Then     Admin should see error messege: "Please enter Mandatory Fields "
+    And      admin should logout
 
 
 #  THORWING THE ERRORS ON THIS STEP - NOT SURE WHY

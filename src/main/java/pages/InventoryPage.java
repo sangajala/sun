@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 /**
  * Created by moxap on 21/03/2016.
  */
+
 public class InventoryPage extends BasePage {
 
     public void InventoryHBL() {
