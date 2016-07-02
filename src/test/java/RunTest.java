@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 tags = {"@02"}
 )
 public class RunTest{
-    //tujg
+    // changes for trial
     static WebDriver driver;
     public static boolean initialiseOnce = false;
     public static CreatePrettyReport pr = null;
